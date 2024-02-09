@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+.caixa_principal {
+    height: 100vh;
+    width: 100%;
+    background-color: #191919;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+}
+
+.portfolio {
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.portfolio span {
+    color: #f9004d;
+}
+
+li {
+    color: white;
+    list-style: none;
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f9004d;
+    transition: 0.5s;
+}
+
+.meu_nome {
+    position: absolute;
+    top: 50%;
+    left: 7%;
+}
+
+.meu_nome h3 {
+    color: white;
+    font-size: 25px;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+}
+
+h1 span {
+    color: #f9004d;
+}
+
+img {
+    border-radius: 20px;
+}
+
+.img_batera {
+    margin-top: 80px;
+    margin-left: 55%;
+
+}
+
+section {
+    display: flex;
+    align-items: center;
+    padding: 80px 15%;
+    background-color: #000000;
+}
+
+section .meu_sobre {
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    left: 2%;
+    bottom: -7.5%;
+    
+}
+
+section .meu_sobre span {
+    color: #f9004d;
+}
+
+section div h2 {
+    color: white;
+    font-size: 40px;
+}
+
+section div p {
+    color: #e2b9c6;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+section div button {
+    color: white;
+    background-color: #f9004d;
+    height: 50px;
+    width: 180px;
+    font-size: 18px;
+    border: none;
+    border-radius: 26px;
+    /* margin-top: 10px; */
+    cursor: pointer;
+}
+
+section div button:hover {
+    background-color: black;
+    border: 2px solid #f9004d;
+    transition: 0.5s;
+}
+
+section img {
+    margin-right: 50px;
+    /* margin-left: 100px; */
+}
+
+.sec2 {
+    margin-top: -100px;
+}
+
+.sec3 {
+    margin-top: -100px;
+}
+
+.sec2 div button {
+    color: white;
+    background-color: #f9004d;
+    height: 50px;
+    width: 130px;
+    font-size: 18px;
+    border: none;
+    border-radius: 26px;
+    cursor: pointer;
+}
+
+.sec3 div button {
+    color: white;
+    background-color: #f9004d;
+    height: 50px;
+    width: 125px;
+    font-size: 18px;
+    border: none;
+    border-radius: 26px;
+    cursor: pointer;
+}
